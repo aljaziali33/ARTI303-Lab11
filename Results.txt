@@ -1,0 +1,132 @@
+5 ?- consult(['c:/Users/aljaz/Downloads/name_game.pl']).
+true.
+
+6 ?- start.
+
+Hi, This is the Name Game.
+Create your name using letters.
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: 1.
+Current letters: [a,b,c]
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 2.
+Enter a letter: |: d.
+Enter position: |: 4.
+Letter added.
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 1.
+Current letters: [a,b,c,d]
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice |: 3.
+Enter a letter: |: f.
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 1.
+Current letters: [f,a,b,c,d]
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 4.
+Enter a letter: |: g.
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 5.
+Enter the letter to delete: |: g.
+Letter deleted.
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 1.
+Current letters: [f,a,b,c,d]
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 6.
+All letters deleted.
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 1.
+Current letters: []
+
+** NAME GAME **
+1 - Display current letters
+2 - Add a letter at a position
+3 - Add a letter at the top
+4 - Add a letter at the bottom
+5 - Delete a letter
+6 - Delete all letters
+7 - Exit
+Enter your choice: |: 7.
+Goodbye!
+true.
